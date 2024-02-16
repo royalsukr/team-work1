@@ -1,3 +1,63 @@
 *{
-    font-family: "Roboto", sans-serif;
+    font-family: "K2D", sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    gap: 31px;
+    color: aliceblue;   
+    margin-top: 10px;
+
+}
+.hero-wrapper{
+background-image: url(back\ glow.png);
+background-color: rgba(18, 7, 32, 1);
+background-size: cover;
+width: 100%;
+height: 100vh;
+}
+.title{
+    float: inline-start;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 30px;
+}
+.navbar{
+    display: flex;
+    float: inline-start;
+    margin-top: 30px;
+    margin-left: 210px;
+    gap: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 15px;
+
+}
+.mode{
+    display: flex;
+    gap: 10px;
+    color: aliceblue;
+    margin-top:10px ;
+}
+.button{
+    background-color: rgba(36, 33, 33, 1);
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    width: 100px;
+}
+.rohan-patil{
+color: aliceblue;
+font-size: 100px;
+}
+.rohan-title{
+    color: aliceblue;
+    font-size: 20px; 
+}
+.rohan{
+float: inline-start;
+margin-left: 100px;
+padding-top: 100px;
 }
