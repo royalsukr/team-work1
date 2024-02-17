@@ -46,11 +46,13 @@ height: 100vh;
     border-radius: 10px;
     color: aliceblue;
     font-size: 15px;
-    width: 100px;
+    display: inline-block;
+    padding: 10px;
 }
 .rohan-patil{
 color: aliceblue;
 font-size: 100px;
+font-weight: 700;
 }
 .rohan-title{
     color: aliceblue;
@@ -67,4 +69,77 @@ padding-top: 100px;
  margin-top:-300px;
  display: flex;
  height: 400px;
+}
+.wireframe2{
+    background-color: rgba(18, 7, 32, 1);
+    background-image: url(back\ glow\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .content{
+       padding-top: 100px;
+        width: 463px;
+        height: 205px;
+        margin-bottom: 100px;
+        margin-left: -1200px;
+        font-family: "K2D", sans-serif;
+        color:rgba(255, 255, 255, 1);
+        font-size:130px ;
+        line-height: 102.5px;
+    }
+    .arrow{
+        width: 144.35px;
+        height: 70.24px;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    .wrapper{
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-wrapper1{
+        display: flex;
+    }
+    .ellipse{
+        height: 475px;
+        width: 493px;
+        margin-left: 50px;
+        margin-top: -210px;
+        z-index: -1;
+    }
+    
+    .container{
+        color:rgba(255, 255, 255, 1);
+        font-family: "Inter", sans-serif;
+        font-weight: 500px;
+        font-size: 20px;
+        line-height: 35px;
+        width: 700px;
+    }
+    .hero-container{
+        color: rgba(245, 245, 245, 1);
+        background-color:  rgba(242, 55, 246, 1);
+        border-radius: 40px;
+        display: inline-block;
+        padding: 10px;
+        font-family: "K2D", sans-serif;
+        margin-left: 550px;
+        cursor: pointer;
+        margin-top: -470px;
+    }
+    .ellipseno2{
+        margin-left:-40px;
+        margin-top: -300px;
+    
+    }
+
+.backround-photo{
+float: right;
+}
+.hero-content{
+margin-top: -250px;
+}
+.hero{
+    float: right;
 }
